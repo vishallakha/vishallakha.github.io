@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vault on Vishal Lakha</title>
+    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/vault/</link>
+    <description>Recent content in Vault on Vishal Lakha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jun 2019 23:20:21 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/vault/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deployment Practices</title>
+      <link>https://vishallakha.github.io/vishal_lakha_portfolio/blog/deployment_practices/</link>
+      <pubDate>Thu, 20 Jun 2019 23:20:21 +0530</pubDate>
+      
+      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/blog/deployment_practices/</guid>
+      <description>Deployment Practices Docker I have added a basic example of Docker usage, with the usage of Docker volumes to store the logs/data in the disk. docker volume create --driver local --name varlogs --opt type=none --opt device=/var/folder_name/ --opt o=uid=root,gid=root --opt o=bind Docker container can be run with the following command along with an environment file containing the cofigurable parameters as well:
+docker run -itd --restart unless-stopped --name image_name --env-file env.txt -v varlogs:/var/folder_name -h=hostname_01 hub.</description>
+    </item>
+    
+  </channel>
+</rss>

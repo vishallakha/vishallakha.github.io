@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ElasticSearch on Vishal Lakha</title>
+    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/elasticsearch/</link>
+    <description>Recent content in ElasticSearch on Vishal Lakha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2020 22:53:58 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estimated Time of Arrival (ETA) of Bus with Pyspark</title>
+      <link>https://vishallakha.github.io/vishal_lakha_portfolio/blog/pyspark_eta/</link>
+      <pubDate>Fri, 03 Apr 2020 22:53:58 +0530</pubDate>
+      
+      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/blog/pyspark_eta/</guid>
+      <description>Objective Predict the estimated time of arrival of a running bus at a bus stand with in-house intelligence.
+Description  I have built a pyspark application which reads the current location and speed of a vehicle from an IVC (in-vehicle computer) and calculates the ETA using haversine distance formula which is stored with every trip during training time. Then during streaming, the ETA is calculated as the average of past values from ElasticSearch.</description>
+    </item>
+    
+  </channel>
+</rss>

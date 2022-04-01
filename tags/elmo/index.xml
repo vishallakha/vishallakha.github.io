@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ELMo on Vishal Lakha</title>
+    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/elmo/</link>
+    <description>Recent content in ELMo on Vishal Lakha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jan 2022 23:29:21 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/elmo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Custom Named Entity Recognition Model with Deep Learning</title>
+      <link>https://vishallakha.github.io/vishal_lakha_portfolio/blog/ner_model/</link>
+      <pubDate>Tue, 04 Jan 2022 23:29:21 +0530</pubDate>
+      
+      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/blog/ner_model/</guid>
+      <description>Objective Build a NLP model which can extract out the important keywords (related to a particular domain) from documents.
+ Description In this project i have trained a custom Named Entity Recognition Model, which takes input of strings (max size 40) and predicts the Named Entities from the text. It used ELMo (Embeddings from Language Models) , bi directional LSTM and a time distributed dense layer.
+Technology Stack Python, Keras, Tensorflow, LSTM</description>
+    </item>
+    
+  </channel>
+</rss>

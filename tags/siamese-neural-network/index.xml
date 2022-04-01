@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Siamese Neural Network on Vishal Lakha</title>
+    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/siamese-neural-network/</link>
+    <description>Recent content in Siamese Neural Network on Vishal Lakha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Mar 2022 23:29:21 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/siamese-neural-network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Siamese Neural Network for Text Similarity</title>
+      <link>https://vishallakha.github.io/vishal_lakha_portfolio/blog/siamese_text_similarity/</link>
+      <pubDate>Thu, 03 Mar 2022 23:29:21 +0530</pubDate>
+      
+      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/blog/siamese_text_similarity/</guid>
+      <description>Description I have implemented a Siamese Neural Network for text similarity. It takes two sentences as input and predicts the similarity between them. Here one input comes from the user and the other input is a entire dataset of documents in the data lake. It implements BERT embeddings for both the sentences, takes the average pooling and gives the output as 1024 dimensional vector embeddings. These embeddings are stored in Mongo DB so that they can be easily used again and again without recalculations.</description>
+    </item>
+    
+  </channel>
+</rss>
