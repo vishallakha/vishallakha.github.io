@@ -2,6 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/</loc>
+    <lastmod>2025-03-16T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/ec-2/</loc>
+    <lastmod>2025-03-16T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/network/</loc>
+    <lastmod>2025-03-16T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/s3/</loc>
+    <lastmod>2025-03-16T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/security-groups/</loc>
+    <lastmod>2025-03-16T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/</loc>
+    <lastmod>2025-03-16T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/aws_solutions_architect/</loc>
+    <lastmod>2025-03-16T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/</loc>
+    <lastmod>2025-03-16T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/bandits/</loc>
+    <lastmod>2025-01-11T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/personalization/</loc>
+    <lastmod>2025-01-11T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/bandits/</loc>
+    <lastmod>2025-01-11T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/thompson-sampling/</loc>
+    <lastmod>2025-01-11T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/upper-confidence-bound/</loc>
+    <lastmod>2025-01-11T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/langchain_huggingface/</loc>
+    <lastmod>2024-12-29T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/faiss/</loc>
+    <lastmod>2024-12-29T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/generative-ai/</loc>
+    <lastmod>2024-12-29T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/huggingface/</loc>
+    <lastmod>2024-12-29T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/langchain/</loc>
+    <lastmod>2024-12-29T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/langgraph/</loc>
+    <lastmod>2024-12-29T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/lora/</loc>
+    <lastmod>2024-12-29T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/rag/</loc>
+    <lastmod>2024-12-29T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/cloud-architecture/</loc>
+    <lastmod>2024-10-13T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/database-sharding/</loc>
+    <lastmod>2024-10-13T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/distributed-systems/</loc>
+    <lastmod>2024-10-13T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/high-availability/</loc>
+    <lastmod>2024-10-13T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/system_design/</loc>
+    <lastmod>2024-10-13T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/microservices/</loc>
+    <lastmod>2024-10-13T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/diffusion-models/</loc>
+    <lastmod>2024-09-24T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/image-generation/</loc>
+    <lastmod>2024-09-24T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/diffusion_models/</loc>
+    <lastmod>2024-09-24T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/text-to-image-generation/</loc>
+    <lastmod>2024-09-24T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/api/</loc>
+    <lastmod>2024-09-15T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/api_webservies/</loc>
+    <lastmod>2024-09-15T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/postman/</loc>
+    <lastmod>2024-09-15T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/webservices/</loc>
+    <lastmod>2024-09-15T00:00:00+05:30</lastmod>
+  </url><url>
     <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/bert/</loc>
     <lastmod>2022-03-03T23:29:21+05:30</lastmod>
   </url><url>
@@ -24,12 +129,6 @@
     <lastmod>2022-03-03T23:29:21+05:30</lastmod>
   </url><url>
     <loc>https://vishallakha.github.io/vishal_lakha_portfolio/blog/siamese_text_similarity/</loc>
-    <lastmod>2022-03-03T23:29:21+05:30</lastmod>
-  </url><url>
-    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/</loc>
-    <lastmod>2022-03-03T23:29:21+05:30</lastmod>
-  </url><url>
-    <loc>https://vishallakha.github.io/vishal_lakha_portfolio/</loc>
     <lastmod>2022-03-03T23:29:21+05:30</lastmod>
   </url><url>
     <loc>https://vishallakha.github.io/vishal_lakha_portfolio/tags/cnn/</loc>

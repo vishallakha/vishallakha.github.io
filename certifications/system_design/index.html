@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" href=https://vishallakha.github.io/vishal_lakha_portfolio/images/my_avatar.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://vishallakha.github.io/vishal_lakha_portfolio/css/font.css" media="all">
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-DWJJVE27WD', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<meta property="og:title" content="Mastering the System Design Interview" />
+<meta property="og:description" content="Certificate Link
+Learnings from System Design &amp; Tech Interview Course Scalability &amp; Resiliency  Introduction to Scalability: Understanding horizontal and vertical scaling Failover Strategies: High availability and disaster recovery mechanisms Sharding Databases / NoSQL: Partitioning strategies for handling large data Data Lakes: Managing and processing large-scale unstructured data ACID Compliance &amp; CAP Theorem: Trade-offs in distributed databases Using CAP to Choose a Database: Consistency, Availability, and Partition Tolerance considerations  Caching &amp; Content Delivery  Caching Introduction: How caching improves performance Caching Technologies: Memcached, Redis, and other solutions Eviction Strategies: LRU, LFU, FIFO, and other caching policies Content Distribution Networks (CDNs): Enhancing web performance and scalability  Distributed Storage &amp; Big Data  Introduction to Scaling Data: Challenges and best practices Distributed Storage Solutions: HDFS, Amazon S3, Google Cloud Storage HDFS Architecture: How Hadoop Distributed File System works Apache Spark: Big data processing framework overview Cloud Computing Overview: Fundamentals of cloud-based architectures  Algorithms &amp; Data Structures  Linked Lists: Concepts and implementations Graphs &amp; Graph Traversal: BFS, DFS, and their applications Search Algorithms: Binary search, linear search Sort Algorithms: Quick sort, merge sort, bubble sort Information Retrieval: Indexing and searching techniques  System Design Interviews  Defining Requirements: Clarifying business and technical needs Design Strategies: Layered architecture, microservices, event-driven design Mock Interviews: Practicing real-world system design scenarios  System Design Case Studies  URL Shortening Service: Architecture and implementation Restaurant Reservation System: Handling bookings and availability Web Crawler: Designing scalable web scraping solutions Top-Sellers System: Tracking and ranking best-selling items Video Sharing Service: Handling video uploads, streaming, and distribution  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vishallakha.github.io/vishal_lakha_portfolio/certifications/system_design/" /><meta property="article:section" content="certifications" />
+<meta property="article:published_time" content="2024-10-13T00:00:00+05:30" />
+<meta property="article:modified_time" content="2024-10-13T00:00:00+05:30" /><meta property="og:site_name" content="Vishal Lakha" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mastering the System Design Interview"/>
+<meta name="twitter:description" content="Certificate Link
+Learnings from System Design &amp; Tech Interview Course Scalability &amp; Resiliency  Introduction to Scalability: Understanding horizontal and vertical scaling Failover Strategies: High availability and disaster recovery mechanisms Sharding Databases / NoSQL: Partitioning strategies for handling large data Data Lakes: Managing and processing large-scale unstructured data ACID Compliance &amp; CAP Theorem: Trade-offs in distributed databases Using CAP to Choose a Database: Consistency, Availability, and Partition Tolerance considerations  Caching &amp; Content Delivery  Caching Introduction: How caching improves performance Caching Technologies: Memcached, Redis, and other solutions Eviction Strategies: LRU, LFU, FIFO, and other caching policies Content Distribution Networks (CDNs): Enhancing web performance and scalability  Distributed Storage &amp; Big Data  Introduction to Scaling Data: Challenges and best practices Distributed Storage Solutions: HDFS, Amazon S3, Google Cloud Storage HDFS Architecture: How Hadoop Distributed File System works Apache Spark: Big data processing framework overview Cloud Computing Overview: Fundamentals of cloud-based architectures  Algorithms &amp; Data Structures  Linked Lists: Concepts and implementations Graphs &amp; Graph Traversal: BFS, DFS, and their applications Search Algorithms: Binary search, linear search Sort Algorithms: Quick sort, merge sort, bubble sort Information Retrieval: Indexing and searching techniques  System Design Interviews  Defining Requirements: Clarifying business and technical needs Design Strategies: Layered architecture, microservices, event-driven design Mock Interviews: Practicing real-world system design scenarios  System Design Case Studies  URL Shortening Service: Architecture and implementation Restaurant Reservation System: Handling bookings and availability Web Crawler: Designing scalable web scraping solutions Top-Sellers System: Tracking and ranking best-selling items Video Sharing Service: Handling video uploads, streaming, and distribution  "/>
+
+
+
+<link rel="stylesheet" href="https://vishallakha.github.io/vishal_lakha_portfolio/bootstrap-5/css/bootstrap.min.css" media="all">
+<link rel="stylesheet" href="https://vishallakha.github.io/vishal_lakha_portfolio/css/header.css" media="all">
+<link rel="stylesheet" href="https://vishallakha.github.io/vishal_lakha_portfolio/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="https://vishallakha.github.io/vishal_lakha_portfolio/css/theme.css" media="all">
+
+
+
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+</style>
+<meta name="description" content="">
+<link rel="stylesheet" href="https://vishallakha.github.io/vishal_lakha_portfolio/css/single.css">
+
+
+<script defer src="https://vishallakha.github.io/vishal_lakha_portfolio/fontawesome-5/all-5.15.4.js"></script>
+
+  <title>
+Mastering the System Design Interview | Vishal Lakha
+
+  </title>
+</head>
+
+<body class="light" onload="loading()">
+  
+  
+  <script src="https://vishallakha.github.io/vishal_lakha_portfolio/bootstrap-5/js/bootstrap.bundle.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+
+
+<header>
+    <nav class="pt-3 navbar navbar-expand-lg">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="https://vishallakha.github.io/vishal_lakha_portfolio/">
+                
+                <img src="https://vishallakha.github.io/vishal_lakha_portfolio/images/my_avatar.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                Vishal Lakha
+                
+            </a>
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav  ms-auto text-center">
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://vishallakha.github.io/vishal_lakha_portfolio/#about" aria-label="about">About</a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://vishallakha.github.io/vishal_lakha_portfolio/#experience"
+                            aria-label="experience">Experience</a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://vishallakha.github.io/vishal_lakha_portfolio/#education"
+                            aria-label="education">Education</a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://vishallakha.github.io/vishal_lakha_portfolio/#achievements"
+                            aria-label="achievements">My Work</a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://vishallakha.github.io/vishal_lakha_portfolio/certifications"
+                            aria-label="certifications">Certifications</a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://vishallakha.github.io/vishal_lakha_portfolio/#contact"
+                            aria-label="contact">Contact</a>
+                    </li>
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://vishallakha.github.io/vishal_lakha_portfolio/blog" title="Blog">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+
+                
+                
+                <div class="text-center">
+                    <button id="theme-toggle">
+                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </button>
+                </div>
+            
+                
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Mastering the System Design Interview</h1>
+            <div class="text-center">
+              Vishal Lakha 
+              <small>|</small>
+              Oct 13, 2024
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid" src="https://vishallakha.github.io/vishal_lakha_portfolio/images/certificates/system_design.jpg" alt="Mastering the System Design Interview">
+          </div>
+          
+          <article class="page-content">
+          <p><a href="https://www.udemy.com/certificate/UC-44bc366a-49d3-4203-a140-96a5f8d55b88/" target="_blank">Certificate Link</a></p>
+<h1 id="learnings-from-system-design--tech-interview-course">Learnings from System Design &amp; Tech Interview Course</h1>
+<h2 id="scalability--resiliency">Scalability &amp; Resiliency</h2>
+<ul>
+<li><strong>Introduction to Scalability</strong>: Understanding horizontal and vertical scaling</li>
+<li><strong>Failover Strategies</strong>: High availability and disaster recovery mechanisms</li>
+<li><strong>Sharding Databases / NoSQL</strong>: Partitioning strategies for handling large data</li>
+<li><strong>Data Lakes</strong>: Managing and processing large-scale unstructured data</li>
+<li><strong>ACID Compliance &amp; CAP Theorem</strong>: Trade-offs in distributed databases</li>
+<li><strong>Using CAP to Choose a Database</strong>: Consistency, Availability, and Partition Tolerance considerations</li>
+</ul>
+<h2 id="caching--content-delivery">Caching &amp; Content Delivery</h2>
+<ul>
+<li><strong>Caching Introduction</strong>: How caching improves performance</li>
+<li><strong>Caching Technologies</strong>: Memcached, Redis, and other solutions</li>
+<li><strong>Eviction Strategies</strong>: LRU, LFU, FIFO, and other caching policies</li>
+<li><strong>Content Distribution Networks (CDNs)</strong>: Enhancing web performance and scalability</li>
+</ul>
+<h2 id="distributed-storage--big-data">Distributed Storage &amp; Big Data</h2>
+<ul>
+<li><strong>Introduction to Scaling Data</strong>: Challenges and best practices</li>
+<li><strong>Distributed Storage Solutions</strong>: HDFS, Amazon S3, Google Cloud Storage</li>
+<li><strong>HDFS Architecture</strong>: How Hadoop Distributed File System works</li>
+<li><strong>Apache Spark</strong>: Big data processing framework overview</li>
+<li><strong>Cloud Computing Overview</strong>: Fundamentals of cloud-based architectures</li>
+</ul>
+<h2 id="algorithms--data-structures">Algorithms &amp; Data Structures</h2>
+<ul>
+<li><strong>Linked Lists</strong>: Concepts and implementations</li>
+<li><strong>Graphs &amp; Graph Traversal</strong>: BFS, DFS, and their applications</li>
+<li><strong>Search Algorithms</strong>: Binary search, linear search</li>
+<li><strong>Sort Algorithms</strong>: Quick sort, merge sort, bubble sort</li>
+<li><strong>Information Retrieval</strong>: Indexing and searching techniques</li>
+</ul>
+<h2 id="system-design-interviews">System Design Interviews</h2>
+<ul>
+<li><strong>Defining Requirements</strong>: Clarifying business and technical needs</li>
+<li><strong>Design Strategies</strong>: Layered architecture, microservices, event-driven design</li>
+<li><strong>Mock Interviews</strong>: Practicing real-world system design scenarios</li>
+</ul>
+<h2 id="system-design-case-studies">System Design Case Studies</h2>
+<ul>
+<li><strong>URL Shortening Service</strong>: Architecture and implementation</li>
+<li><strong>Restaurant Reservation System</strong>: Handling bookings and availability</li>
+<li><strong>Web Crawler</strong>: Designing scalable web scraping solutions</li>
+<li><strong>Top-Sellers System</strong>: Tracking and ranking best-selling items</li>
+<li><strong>Video Sharing Service</strong>: Handling video uploads, streaming, and distribution</li>
+</ul>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#scalability--resiliency">Scalability &amp; Resiliency</a></li>
+    <li><a href="#caching--content-delivery">Caching &amp; Content Delivery</a></li>
+    <li><a href="#distributed-storage--big-data">Distributed Storage &amp; Big Data</a></li>
+    <li><a href="#algorithms--data-structures">Algorithms &amp; Data Structures</a></li>
+    <li><a href="#system-design-interviews">System Design Interviews</a></li>
+    <li><a href="#system-design-case-studies">System Design Case Studies</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/distributed-systems" target="_blank">Distributed Systems</a></li>
+              
+              <li class="list-inline-item"><a href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/high-availability" target="_blank">High Availability</a></li>
+              
+              <li class="list-inline-item"><a href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/microservices" target="_blank">Microservices</a></li>
+              
+              <li class="list-inline-item"><a href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/database-sharding" target="_blank">Database Sharding</a></li>
+              
+              <li class="list-inline-item"><a href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/cloud-architecture" target="_blank">Cloud Architecture</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-2">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "VishalLakha" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  console.log(topScroll);
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+
+  </div><footer>
+    <div class="container py-3" id="recent-posts">
+    
+</div><div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <div class="pb-2">
+                <a href="https://vishallakha.github.io/vishal_lakha_portfolio/" title="Vishal Lakha">
+                    <img alt="Footer logo" src="https://vishallakha.github.io/vishal_lakha_portfolio/images/my_avatar.png"
+                        height="40px" width="40px">
+                </a>
+            </div>
+            &copy; 2025  All Rights Reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a>
+                    Hugo
+                </a>
+            </div>
+        </div>
+    </div>
+</div></footer>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+<script>
+    let loadingIcons;
+
+    function loading() {
+        myVar = setTimeout(showPage, 100);
+    }
+
+    function showPage() {
+        try{
+            document.getElementById("loading-icons").style.display = "block";
+        } catch(err) {}
+    }
+</script></body>
+
+</html>
