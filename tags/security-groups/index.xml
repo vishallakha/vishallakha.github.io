@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Groups on Vishal Lakha</title>
+    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/security-groups/</link>
+    <description>Recent content in Security Groups on Vishal Lakha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/security-groups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Udemy - Ultimate AWS Solutions Architech Associate Exam 2025</title>
+      <link>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/aws_solutions_architect/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0530</pubDate>
+      
+      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/aws_solutions_architect/</guid>
+      <description>Certificate Link
+AWS Certified Solutions Architect Associate (2025) - My Learnings Core AWS Services Compute  EC2: Instance types, Auto Scaling, Elastic Load Balancer (ELB), Placement Groups Lambda: Serverless computing, event triggers, pricing model Elastic Beanstalk: Simplified deployment of applications  Storage  S3: Storage classes, versioning, lifecycle policies, encryption EBS: Volume types, snapshots, encryption EFS: Shared storage for multiple instances, performance modes Glacier: Archival storage, retrieval options  Databases  RDS: Multi-AZ, Read Replicas, Backup &amp;amp; Restore DynamoDB: NoSQL, Global Tables, Streams Redshift: Data warehousing, columnar storage, performance tuning ElastiCache: Redis &amp;amp; Memcached, caching strategies  Networking &amp;amp; Security  VPC: Subnets, Route Tables, Security Groups, NACLs, VPC Peering IAM: Roles, Policies, Users &amp;amp; Groups, MFA, Best Practices CloudFront: CDN, Edge Locations, Signed URLs Route 53: DNS routing, Latency-based routing, Failover policies WAF &amp;amp; Shield: DDoS Protection, Web security  Monitoring &amp;amp; Logging  CloudWatch: Logs, Metrics, Alarms, Custom Dashboards CloudTrail: API activity logging, Governance &amp;amp; Compliance AWS Config: Resource configuration history, compliance auditing  High Availability &amp;amp; Disaster Recovery  Multi-AZ &amp;amp; Auto Scaling: Ensuring uptime and fault tolerance Backups &amp;amp; Snapshots: Data durability strategies Pilot Light &amp;amp; Warm Standby: Disaster recovery patterns  Cost Optimization  Reserved vs Spot Instances: Cost savings strategies AWS Trusted Advisor: Cost recommendations Budgets &amp;amp; Cost Explorer: Analyzing &amp;amp; optimizing AWS spend  </description>
+    </item>
+    
+  </channel>
+</rss>

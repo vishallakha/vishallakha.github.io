@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diffusion Models on Vishal Lakha</title>
+    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/diffusion-models/</link>
+    <description>Recent content in Diffusion Models on Vishal Lakha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/diffusion-models/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro to Diffusion Models</title>
+      <link>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/diffusion_models/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0530</pubDate>
+      
+      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/diffusion_models/</guid>
+      <description>Certificate Link
+Learnings from Diffusion Models Course  Forward Diffusion Process Reverse Diffusion Process Denoising Diffusion Implicit Models (DDIMs) DDPMs UNet Model Diffusion Probabilistic Models (DPMs) Inpainting Stable Diffusion  </description>
+    </item>
+    
+  </channel>
+</rss>
