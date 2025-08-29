@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>API on Vishal Lakha</title>
-    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/api/</link>
+    <link>https://vishallakha.github.io/tags/api/</link>
     <description>Recent content in API on Vishal Lakha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>API and Web Services Introduction</title>
-      <link>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/api_webservies/</link>
+      <link>https://vishallakha.github.io/certifications/api_webservies/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0530</pubDate>
       
-      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/api_webservies/</guid>
+      <guid>https://vishallakha.github.io/certifications/api_webservies/</guid>
       <description>Certificate Link
 Learnings from APIs and Web Services Course Introduction to APIs and Web Services  What is an API? Definition and real-world use cases Examples of APIs: Twitter API, Google Cloud API, eBay API What is a Web Service?: Web-based APIs and their significance Web Service vs API: Key differences and use cases  Core Concepts Data Formats  XML: Structure, syntax, and use cases JSON: Lightweight data format and its advantages Comparison: JSON vs XML: Performance, readability, and popularity  HTTP Fundamentals  HTTP &amp;amp; HTTPS: Protocols for communication Request Methods: GET, POST, PUT, DELETE Status Codes: 200, 400, 401, 403, 404, 500  API Architectures  SOAP (Simple Object Access Protocol): XML-based, strict standards REST (Representational State Transfer): Stateless, lightweight, widely used Comparison: SOAP vs REST: Security, performance, complexity  Authentication &amp;amp; Authorization  OAuth: Secure authorization framework OAuth Example (Google Cloud): Implementing OAuth authentication Authentication vs Authorization: Key differences and best practices OpenID Connect: Identity layer on top of OAuth  API Tools &amp;amp; Hands-on Learning  Postman: API testing and request handling Postman Authentication: No Auth, Basic Auth, Digest Auth, Bearer Token, OAuth Calling APIs using Python: Hands-on example Creating APIs in AWS: API Gateway and Lambda integration Calling APIs using Different Programming Languages: Best practices  Advanced Concepts  Webhooks: Real-time data updates and event-driven architecture Microservices: Scalable and modular API-based architectures REST API Examples: Implementing Twitter and eBay APIs Native, Web, and Hybrid Apps: API integration strategies  Hands-on Exercises  Using Postman for API requests Calling an API with Python Building an API with AWS Implementing OAuth authentication  </description>
     </item>

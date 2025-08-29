@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RAG on Vishal Lakha</title>
-    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/rag/</link>
+    <link>https://vishallakha.github.io/tags/rag/</link>
     <description>Recent content in RAG on Vishal Lakha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/rag/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/tags/rag/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Complete Generative AI Course With Langchain and Huggingface</title>
-      <link>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/langchain_huggingface/</link>
+      <link>https://vishallakha.github.io/certifications/langchain_huggingface/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0530</pubDate>
       
-      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/langchain_huggingface/</guid>
+      <guid>https://vishallakha.github.io/certifications/langchain_huggingface/</guid>
       <description>Certificate Link
 Learnings from Gen AI LandChain Course  Ollama, OpenAI Use LangChain Expressions (LCEL) Conversation History Usage, StreamLit Application, Huggingface Spaces Hybrid Search, Reciprocal Rank fusion, RAG Graph Databases, Cypher Query Language, Neo4j Vector Stores, Pinecone, Chroma, Faiss LoRA, QLoRA Stateful Multi Actor Applications Using LangGraph  </description>
     </item>

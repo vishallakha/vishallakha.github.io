@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bandits on Vishal Lakha</title>
-    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/bandits/</link>
+    <link>https://vishallakha.github.io/tags/bandits/</link>
     <description>Recent content in Bandits on Vishal Lakha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/bandits/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/tags/bandits/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Practical Multi-Armed Bandit Algorithms in Python</title>
-      <link>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/bandits/</link>
+      <link>https://vishallakha.github.io/certifications/bandits/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0530</pubDate>
       
-      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/bandits/</guid>
+      <guid>https://vishallakha.github.io/certifications/bandits/</guid>
       <description>Certificate Link
 Learnings from Multi-Armed Bandit (MAB) Course Introduction to Multi-Armed Bandit Problems  What is a Multi-Armed Bandit (MAB) problem? Real-world applications: Online advertising, recommendation systems, clinical trials Modelling business problems as MAB: Automating decision-making with AI agents  Reinforcement Learning &amp;amp; Exploration-Exploitation Tradeoff  The Exploration-Exploitation Dilemma: Balancing between trying new options vs exploiting known rewards Challenges in Reinforcement Learning (RL): Sample efficiency, reward design  Algorithmic Strategies for MAB Epsilon-Greedy Strategy  Concept: Balancing exploration with a probability ε and exploitation otherwise Python Implementation: Step-by-step coding of Epsilon-Greedy  Softmax Exploration Strategy  Concept: Selecting actions probabilistically based on their estimated values Python Implementation: Implementing Softmax exploration in Python  Optimistic Initialization Strategy  Concept: Encouraging exploration by initializing high action values Python Implementation: Coding Optimistic Initialization for MAB  Upper Confidence Bounds (UCB) Strategy  Concept: Choosing actions based on confidence intervals Python Implementation: Implementing UCB algorithm in Python  Practical Considerations in RL  Reward Function Design: Challenges in defining effective reward structures Sample Efficiency: Optimizing learning with minimal data Incremental Sampling for Action Value Estimation: Updating action values dynamically  </description>
     </item>
