@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Time Series on Vishal Lakha</title>
-    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/time-series/</link>
+    <link>https://vishallakha.github.io/tags/time-series/</link>
     <description>Recent content in Time Series on Vishal Lakha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Apr 2020 19:53:33 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Apr 2020 19:53:33 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dynamic Pricing of Parking Charges</title>
-      <link>https://vishallakha.github.io/vishal_lakha_portfolio/blog/dynamic_parking_pricing/</link>
+      <link>https://vishallakha.github.io/blog/dynamic_parking_pricing/</link>
       <pubDate>Fri, 03 Apr 2020 19:53:33 +0530</pubDate>
       
-      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/blog/dynamic_parking_pricing/</guid>
+      <guid>https://vishallakha.github.io/blog/dynamic_parking_pricing/</guid>
       <description>Objective Provide a suggestion to select the optimal pricing tiers based on demand in a parking lot.
 Description  II have trained a machine learning model using Prophet (Generalized Additive Model) which predicts the occupancy percent of a parking lot for next 3 hours. this forecast is used to derive the selection of optimal pricing tier based on given options. Based on the forecast, the Parking lot administrator would receive a pop notification on his dashboard about the recommendation to change the pricing due to predicted change in the parking lot utilization.</description>
     </item>

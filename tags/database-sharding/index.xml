@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Database Sharding on Vishal Lakha</title>
-    <link>https://vishallakha.github.io/vishal_lakha_portfolio/tags/database-sharding/</link>
+    <link>https://vishallakha.github.io/tags/database-sharding/</link>
     <description>Recent content in Database Sharding on Vishal Lakha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/vishal_lakha_portfolio/tags/database-sharding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0530</lastBuildDate><atom:link href="https://vishallakha.github.io/tags/database-sharding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mastering the System Design Interview</title>
-      <link>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/system_design/</link>
+      <link>https://vishallakha.github.io/certifications/system_design/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0530</pubDate>
       
-      <guid>https://vishallakha.github.io/vishal_lakha_portfolio/certifications/system_design/</guid>
+      <guid>https://vishallakha.github.io/certifications/system_design/</guid>
       <description>Certificate Link
 Learnings from System Design &amp;amp; Tech Interview Course Scalability &amp;amp; Resiliency  Introduction to Scalability: Understanding horizontal and vertical scaling Failover Strategies: High availability and disaster recovery mechanisms Sharding Databases / NoSQL: Partitioning strategies for handling large data Data Lakes: Managing and processing large-scale unstructured data ACID Compliance &amp;amp; CAP Theorem: Trade-offs in distributed databases Using CAP to Choose a Database: Consistency, Availability, and Partition Tolerance considerations  Caching &amp;amp; Content Delivery  Caching Introduction: How caching improves performance Caching Technologies: Memcached, Redis, and other solutions Eviction Strategies: LRU, LFU, FIFO, and other caching policies Content Distribution Networks (CDNs): Enhancing web performance and scalability  Distributed Storage &amp;amp; Big Data  Introduction to Scaling Data: Challenges and best practices Distributed Storage Solutions: HDFS, Amazon S3, Google Cloud Storage HDFS Architecture: How Hadoop Distributed File System works Apache Spark: Big data processing framework overview Cloud Computing Overview: Fundamentals of cloud-based architectures  Algorithms &amp;amp; Data Structures  Linked Lists: Concepts and implementations Graphs &amp;amp; Graph Traversal: BFS, DFS, and their applications Search Algorithms: Binary search, linear search Sort Algorithms: Quick sort, merge sort, bubble sort Information Retrieval: Indexing and searching techniques  System Design Interviews  Defining Requirements: Clarifying business and technical needs Design Strategies: Layered architecture, microservices, event-driven design Mock Interviews: Practicing real-world system design scenarios  System Design Case Studies  URL Shortening Service: Architecture and implementation Restaurant Reservation System: Handling bookings and availability Web Crawler: Designing scalable web scraping solutions Top-Sellers System: Tracking and ranking best-selling items Video Sharing Service: Handling video uploads, streaming, and distribution  </description>
     </item>
